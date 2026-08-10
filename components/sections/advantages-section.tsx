@@ -76,7 +76,7 @@ export function AdvantagesSection() {
             <div className="absolute right-6 top-6 h-20 w-20 rounded-full bg-accent/10 blur-2xl" />
             <div className="flex items-start justify-between"><div className="rounded-2xl border border-accent/20 bg-accent/10 p-3 text-accent"><Factory className="h-5 w-5" /></div><span className="rounded-full border border-accent/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-accent">Live control</span></div>
             <h3 className="mt-6 font-display text-xl font-bold">Собственный завод</h3>
-            <p className="mt-2 max-w-sm text-sm leading-relaxed text-muted-foreground">Производим окна сами, поэтому контролируем качество и сроки на каждом этапе.</p>
+            <p className="mt-2 mb-2 max-w-sm text-sm leading-relaxed text-muted-foreground">Производим окна сами, поэтому контролируем качество и сроки</p>
             <div className="absolute bottom-6 left-6 right-6 flex items-center gap-3"><div className="relative h-2 flex-1 overflow-hidden rounded-full bg-accent/10"><div className="absolute inset-y-0 left-0 w-2/3 rounded-full bg-accent animate-laser-sweep" /></div><span className="font-mono text-xs text-accent">98.7%</span></div>
           </motion.article>
 
@@ -86,7 +86,7 @@ export function AdvantagesSection() {
           >
             <div className="flex items-center justify-between"><Recycle className="h-5 w-5 text-accent" /><span className="text-xs text-muted-foreground">01—03</span></div>
             <h3 className="mt-6 font-display text-lg font-bold">Всё по плану</h3>
-            <div className="mt-5 space-y-3 text-xs"><div className="flex items-center gap-2 text-foreground"><span className="h-2 w-2 rounded-full bg-accent" />Замер</div><div className="ml-1 h-3 border-l border-dashed border-accent/50" /><div className="flex items-center gap-2 text-muted-foreground"><span className="h-2 w-2 rounded-full border border-accent" />Доставка</div><div className="ml-1 h-3 border-l border-dashed border-border" /><div className="flex items-center gap-2 text-muted-foreground"><span className="h-2 w-2 rounded-full border border-border" />Без мусора</div></div>
+            <div className="mt-5 space-y-3 text-xs"><div className="flex items-center gap-2 text-foreground"><span className="h-2 w-2 rounded-full bg-accent" />Замер</div><div className="ml-1 h-3 border-l border-dashed border-accent/50" /><div className="flex items-center gap-2 text-muted-foreground"><span className="h-2 w-2 rounded-full border border-accent" />Доставка</div></div>
           </motion.article>
 
           <motion.article
