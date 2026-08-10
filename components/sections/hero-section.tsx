@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden pt-30 pb-20 sm:pt-40 lg:pt-30">
+    <section className="relative overflow-hidden pt-32 pb-20 sm:pt-40 lg:pt-48">
       {/* Ambient background */}
       <div className="bg-ambient absolute inset-0" />
       <div className="bg-grid absolute inset-0 opacity-30" />
